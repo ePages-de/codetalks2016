@@ -19,7 +19,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1473256455307" ID="ID_1007035153" MODIFIED="1473322031371" TEXT="OS">
+<node COLOR="#00b439" CREATED="1473256455307" ID="ID_1007035153" MODIFIED="1473324012775" TEXT="Operating System">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1473256441212" ID="ID_131511026" MODIFIED="1473323124584" TEXT="Linux">
@@ -33,7 +33,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1473256166267" ID="ID_60184173" MODIFIED="1473322031375" POSITION="left" TEXT="Java">
+<node COLOR="#0033ff" CREATED="1473256166267" ID="ID_60184173" MODIFIED="1473323769697" POSITION="left" TEXT="Frameworks">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1473256507377" ID="ID_1895292946" MODIFIED="1473322031376" TEXT="Spring Boot">
@@ -58,7 +58,7 @@
 </node>
 <node COLOR="#990000" CREATED="1473256527817" ID="ID_456351591" MODIFIED="1473322031380" TEXT="REST">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1473262179089" ID="ID_1094266376" MODIFIED="1473322031381" TEXT="JsonPOJOBuilder/JsonDeserialize with Lombok Builder"/>
+<node COLOR="#111111" CREATED="1473262179089" ID="ID_1094266376" MODIFIED="1473323698973" TEXT="Jackson with Lombok Builder"/>
 <node COLOR="#111111" CREATED="1473262194736" ID="ID_1214934344" MODIFIED="1473322031381" TEXT="Mixins"/>
 </node>
 </node>
@@ -102,7 +102,6 @@
 </node>
 <node COLOR="#990000" CREATED="1473256713325" ID="ID_1230243495" MODIFIED="1473322031389" TEXT="Docker Plugin">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1473256717286" ID="ID_1269527238" MODIFIED="1473322031389" TEXT="Docker Layer Optimization"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1473322811834" ID="ID_1961574083" MODIFIED="1473322815701" TEXT="Java 8">
@@ -134,6 +133,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1473323992141" ID="ID_530727246" MODIFIED="1473323997013" TEXT="AsciiDoc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1473256592286" ID="ID_284499780" MODIFIED="1473322031397" POSITION="left" TEXT="Speakers">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -143,6 +146,10 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1473256606687" ID="ID_327182043" MODIFIED="1473322031399" TEXT="Extreme Polarization">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1473323596909" ID="ID_1246432864" MODIFIED="1473323643023" TEXT="J2EE vs. Spring">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -157,8 +164,18 @@
 <node COLOR="#00b439" CREATED="1473323072509" ID="ID_1886480162" MODIFIED="1473323080541" TEXT="JSON logging">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473323956854" ID="ID_142243748" MODIFIED="1473323963813" TEXT="logback-logstash-encoder">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1473323090558" ID="ID_356439720" MODIFIED="1473323108910" TEXT="health checks">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473323966212" ID="ID_625714285" MODIFIED="1473323975974" TEXT="spring-boot-starter-actuator">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1473323710767" ID="ID_127683264" MODIFIED="1473323723384" TEXT="Docker Cache optimizing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -180,7 +197,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1473320696072" ID="ID_319503927" MODIFIED="1473322031406" TEXT="exposed Spring Data JPA Repository">
+<node COLOR="#00b439" CREATED="1473320696072" ID="ID_319503927" MODIFIED="1473323688647" TEXT="exposed JPA Repository">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -193,7 +210,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1473323254875" ID="ID_1447833427" MODIFIED="1473323346396" POSITION="right" TEXT="Tests">
+<node COLOR="#0033ff" CREATED="1473323254875" ID="ID_1447833427" MODIFIED="1473323784361" POSITION="right" TEXT="Testing">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1473323262099" ID="ID_670196016" MODIFIED="1473323368227" TEXT="spring-rest-docs">
@@ -207,10 +224,27 @@
 <node COLOR="#00b439" CREATED="1473323288971" ID="ID_1995066261" MODIFIED="1473323296215" TEXT="assertj">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473323845933" ID="ID_221280066" MODIFIED="1473323910588" TEXT="BDDAssertions">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1473323347138" ID="ID_205478384" MODIFIED="1473323350958" TEXT="gradle -t">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1473323786935" ID="ID_1452223840" MODIFIED="1473323791945" TEXT="mockito">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473323891175" ID="ID_1600601805" MODIFIED="1473323897572" TEXT="BDDMockito">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1473323794270" ID="ID_1213420326" MODIFIED="1473323839297" TEXT="spring-boot-starter-test">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473323860512" ID="ID_1224296032" MODIFIED="1473323863840" TEXT="MockBean">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
